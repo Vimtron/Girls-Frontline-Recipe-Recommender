@@ -1,0 +1,122 @@
+IDEAS: 
+	Support for multiple languages?
+    Maybe allow for searching for T-dolls by index number?
+    Allow user to favorite recipes? Make sure to save things like what item the recipe is for and what not.
+    Allow for user to specify tier level?
+    Allow for specifying a default production level?
+    Add a cache?
+    Check config file inputs
+    Check settings changes user inputs
+    
+PROBLEMS:
+    If there is a lot of recipes, the crafting page takes a bit too long to load
+
+-- Main menu
+
+Statistics sourced from https://sangvis.science
+GFL Recipe Recommender made by Vimtron (UID: 588679)
+
+** Please type a selection and press enter **
+
+[1] Recipes
+[2] Settings
+[3] Explanation
+
+> |
+
+-- Recipes menu
+
+** Please type a selection and press enter **
+** You may also give a query to search ** // TODO: if name matches something on list, go directly to its page
+
+Recipe Categories
+[1]  HG // TODO: subtle padding here
+[2]  SMG
+[3]  RF
+[4]  AR
+[5]  MG
+[6]  SG
+[7]  Accessory
+[8]  Magazine
+[9]  T-Doll
+[10] Battle Fairy
+[11] Strategy Fairy
+
+[12] Go back
+
+> |
+
+-- Individual category menu
+
+** Please type a selection and press enter **
+** You may also give a query to search ** // TODO: if name matches something on list, go directly to its page
+
+{Name of Category} Category
+[1] ***** {first item}   // TODO: Put number of stars next to each one??
+[2] **    {second item}  // TODO: Make sure to add padding like shown
+...
+[n] {n-th item}
+
+[n+1] Go back
+
+> |
+
+-- Item search page
+
+** Please type a selection and press enter **
+
+Search query: {Search query}
+[1] HG ***** {first item}   // TODO: Put number of stars next to each one??
+[2] AR **    {second item}  // TODO: Make sure to add padding like shown
+...
+[n] {n-th item}
+
+[n+1] Go back
+
+> |
+
+-- Item recipes page
+
+** Please type a selection and press enter **
+
+{name of item} | NORMAL production only
+
+Rank | Manpower | Ammo | Rations | Parts | Tier | Hits | Attempts | Rate | Lower bound | TATBH // TODO: Allow for user to 
+1st    xxx		  xxx    xxx       xxx     xxx    xxx    xxx        xxx    xxx           xxx    // specify how many recipes to 
+2nd    xxx		  xxx    xxx       xxx     xxx    xxx    xxx        xxx    xxx           xxx    // provide here
+3rd    xxx		  xxx    xxx       xxx     xxx    xxx    xxx        xxx    xxx           xxx
+
+[1] Show only normal production recipes
+[2] Show only heavy production recipes
+[3] Show both normal and heavy production recipes
+[4] Go back
+
+> |
+
+-- Settings
+
+** Please type a selection and press enter**
+
+[1] Z-score: xxx
+[2] xxx% Confidence Interval
+[3] Number of recipes to show: xxx
+
+> |
+
+
+-- Settings change
+** Please choose a new value for the settings **
+
+OLD: {Setting name} = {current setting}
+NEW: {Setting name} = |
+
+-- Invalid Setting choice
+** Please choose a new value for the settings **
+
+** Invalid Input. Please try again. **
+
+OLD: {Setting name} = {current setting}
+NEW: {Setting name} = |
+
+-- Explanation
+Haha... I'll do that later...

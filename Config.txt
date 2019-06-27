@@ -1,0 +1,5 @@
+[Main]
+z-score = 1.6448536269514717
+num_of_recipes_to_show = 5
+num_of_query_results = 10
+
